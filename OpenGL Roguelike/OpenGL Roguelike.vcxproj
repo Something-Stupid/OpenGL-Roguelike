@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\OpenGL\glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
