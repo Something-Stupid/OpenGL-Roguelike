@@ -10,8 +10,6 @@ void processInput(GLFWwindow* window);
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
-GLboolean wireframe = GL_FALSE;
-
 
 //hardcoded shaders, will replace with file loading later
 const char* vertexShaderSource = "#version 330 core\n"
