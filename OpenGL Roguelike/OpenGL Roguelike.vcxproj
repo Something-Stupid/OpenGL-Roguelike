@@ -80,7 +80,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Ian\Documents\OpenGL\Include\KHR;C:\Users\Ian\Documents\OpenGL\Include\glad;C:\Users\Ian\Documents\OpenGL\Include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Ian\Documents\Roguelike Dev\OpenGL Roguelike\OpenGL Roguelike\Header Files;C:\Users\Ian\Documents\OpenGL\Include\KHR;C:\Users\Ian\Documents\OpenGL\Include\glad;C:\Users\Ian\Documents\OpenGL\Include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Ian\Documents\OpenGL\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -147,6 +147,9 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\OpenGL\glad.c" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
